@@ -30,9 +30,9 @@ const projects = [
     name: "Landing Page",
     desc: `This a small Webpage which I created using React , three.js , react-three/fiber andreact-three/drei .
               This is a small webpage including 3d object.
-               See the source code in my github repo....`,
+              `,
     image: "./projects/threeejs.png",
-    link: "https://github.com/therealruvais/landingPage-3js",
+    link: "https://landing-page-3js.vercel.app/",
     target: "_blank",
   },
 ];
