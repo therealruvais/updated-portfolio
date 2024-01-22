@@ -5,7 +5,7 @@ const projects = [
            users, like, comment, and send real-time messages.
                See the source code in my github repo....`,
     image: "./projects/pichub.png",
-    link: "https://github.com/therealruvais/Social_Media_Application",
+    link: "https://social-media-application-lyart.vercel.app/",
     target: "_blank",
   },
   {
