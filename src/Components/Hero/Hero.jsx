@@ -71,7 +71,7 @@ const Hero = () => {
           </Canvas>
           <img
             className="hero-img"
-            src="./img/ai 2.jpg"
+            src="./img/mi.jpg"
           />
         </div>
       </div>
