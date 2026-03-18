@@ -1,17 +1,17 @@
-.info-section {
+
+.info-secton {
   scroll-snap-align: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+  min-height: 100vh;
+  padding: 60px 0;
 }
+
 .info-container {
-  scroll-snap-align: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 1200px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  gap: 20px;
+  gap: 40px; /* increased spacing */
 }
 
 .left-container {
@@ -80,16 +80,16 @@
   align-items: center;
 }
 .card-container {
-  height: 80vh;
-  width: 50vw;
+  width: 100%;
+  max-width: 600px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  column-gap: 40px;
+  gap: 25px; /* better spacing */
+  padding: 20px;
   border-radius: 10px;
   background-color: #25253e;
-  transition: 0.5s ease-in-out;
 }
 
 .card-container:hover{
@@ -97,7 +97,7 @@ box-shadow: 0 0 10px #c34eda;
 }
 
 .card {
-  width: 300px;
+  width: 260px;
   height: 200px;
   perspective: 1000px;
 }
@@ -121,10 +121,8 @@ box-shadow: 0 0 10px #c34eda;
   backface-visibility: hidden;
 }
 .card-back {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  backface-visibility: hidden;
+  padding: 10px;
+  overflow-y: auto;
 }
 
 .card-front {
@@ -159,17 +157,7 @@ box-shadow: 0 0 10px #c34eda;
   font-size: 14px;
 }
 .card-back button {
-  align-self: center;
-  border: none;
-  outline: none;
-  width: 150px;
-  background-color: #c34eda;
-  padding: 10px 20px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 600;
-  margin-bottom: 10px;
-  cursor: pointer;
+  margin-top: auto;
 }
 .card-back  button a{
    text-decoration: none;
