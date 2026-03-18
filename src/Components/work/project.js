@@ -19,14 +19,6 @@ const projects = [
     target: "_blank",
   },
 
-  {
-    name: "PicHub Social Media Platform",
-    desc: `A full-stack MERN social media application similar to Instagram.
-           Features include photo sharing, user interactions, and real-time messaging using Socket.io.`,
-    image: "./projects/pichub.jpeg",
-    link: "https://social-media-client-phi.vercel.app/",
-    target: "_blank",
-  },
 
   {
     name: "Temetatech Consultancy Website",
